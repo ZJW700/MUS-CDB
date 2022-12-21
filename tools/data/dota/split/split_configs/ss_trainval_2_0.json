@@ -1,0 +1,24 @@
+{
+  "nproc": 10,
+  "img_dirs": ["/PATH/TO/Dotadevkit/DOTA-v2.0/trainval/images/"],
+  "ann_dirs": ["/PATH/TO/Dotadevkit/DOTA-v2.0/trainval/labelTxt/"],
+  "sizes": [
+    1024
+  ],
+  "gaps": [
+    200
+  ],
+  "rates": [
+    1.0
+  ],
+  "img_rate_thr": 0.6,
+  "iof_thr": 0.7,
+  "no_padding": false,
+  "padding_value": [
+    104,
+    116,
+    124
+  ],
+  "save_dir": "/PATH/TO/Dotadevkit/split_1024_dota2_0/trainval/",
+  "save_ext": ".png"
+}

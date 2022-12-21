@@ -1,0 +1,9 @@
+# These must be installed before building this project
+scipy
+terminaltables
+pycocotools
+e2cnn
+future
+tensorboard
+cython
+shapely
