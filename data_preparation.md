@@ -122,4 +122,4 @@ Please create two 'annfile' files for different datasets DOTA-V1.0 and DOTA-v2.0
 │   │   ├──P2805__1024__1808___2181.txt
 
 ```
-When running our method 'mus-cdb', please first paste an 'annfile' in the output directory. The specific file location is shown as follows: "/data/MUS-CDB/work_dirs/mus_cdb/EXP0/annfile".
+Before running our code, please make sure to place the 'annfile' folder in the output directory. You can refer to the following example for the location of 'annfile': /data/MUS-CDB/work_dirs/mus_cdb/EXP0/annfile..
