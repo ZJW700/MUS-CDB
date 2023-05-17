@@ -108,3 +108,18 @@ And after that, please ensure the splited data directory tree is as below:
 ```
 
 Please note : the splited DOTA-v2.0 datasets ( *train* ) and  ( *val* ) are separately stored in the directory '.../split_1024_dota2_0/trainval/' and '.../split_1024_dota2_0/test/'.
+
+## create partially labeled dataset
+Please create two 'annfile' files for different datasets DOTA-V1.0 and DOTA-v2.0, according to the following data structure. The 'queried' directory is initially empty, and the 'unqueried' directory stores all ground truth txt files for the training set.
+```
+├── annfile
+│   ├── queried
+│   ├── unqueried
+│   │   ├──P0000__1024__0___0.txt
+│   │   │      .
+│   │   │      .
+│   │   │      .
+│   │   ├──P2805__1024__1808___2181.txt
+
+```
+When running our method 'mus-cdb', please first paste an 'annfile' in the output directory. The specific file location is shown as follows: "/data/MUS-CDB/work_dirs/mus_cdb/EXP0/annfile".
