@@ -109,7 +109,7 @@ And after that, please ensure the splited data directory tree is as below:
 
 Please note : the splited DOTA-v2.0 datasets ( *train* ) and  ( *val* ) are separately stored in the directory '.../split_1024_dota2_0/trainval/' and '.../split_1024_dota2_0/test/'.
 
-## create partially labeled dataset
+## create sample pool for sampling
 Please create two 'annfile' files for different datasets DOTA-V1.0 and DOTA-v2.0, according to the following data structure. The 'queried' directory is initially empty, and the 'unqueried' directory stores all ground truth txt files for the training set.
 ```
 ├── annfile
