@@ -43,7 +43,7 @@ def parse_args():
                         default=0)
     parser.add_argument('--class-num',
                         default=15,
-                        help="class num: DOTA-v1.0(15) and DOTA-v2.0(20)")
+                        help="class num: DOTA-v1.0(15) and DOTA-v2.0(18)")
     parser.add_argument('--al-sample',
                         default='DGCB',
                         choices=['IGUS', 'DGCB', 'mus-cdb'],
